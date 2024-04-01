@@ -1,0 +1,94 @@
+{
+  "questions": [
+    {
+      "question": "Esta bandeira representa qual país?",
+      "answer1": "Noruega",
+      "answer2": "Marrocos",
+      "answer3": "Grécia",
+      "answer4": "Estados Unidos da América",
+      "correct": "Noruega",
+      "flagImagePath": "noruega"
+    },
+    {
+      "question": "Esta bandeira é de qual país?",
+      "answer1": "Finlandia",
+      "answer2": "Israel",
+      "answer3": "Itália",
+      "answer4": "Áustria",
+      "correct": "Finlandia",
+      "flagImagePath": "finlandia"
+    },
+    {
+      "question": "Esta bandeira pertence a?",
+      "answer1": "África do Sul",
+      "answer2": "Bélgica",
+      "answer3": "Suíça",
+      "answer4": "Madagáscar",
+      "correct": "África do Sul",
+      "flagImagePath": "africadosul"
+    },
+    {
+      "question": "Esta bandeira representa qual país?",
+      "answer1": "Brasil",
+      "answer2": "Argélia",
+      "answer3": "México",
+      "answer4": "Argentina",
+      "correct": "Argentina",
+      "flagImagePath": "argentina"
+    },
+    {
+      "question": "Podemos dizer que esta bandeira é de?",
+      "answer1": "Guiné",
+      "answer2": "Quênia",
+      "answer3": "Senegal",
+      "answer4": "Jamaica",
+      "correct": "Quênia",
+      "flagImagePath": "quenia"
+    },
+    {
+      "question": "Esta bandeira representa:",
+      "answer1": "Argentina",
+      "answer2": "Rússia",
+      "answer3": "Filipinas",
+      "answer4": "Camboja",
+      "correct": "Filipinas",
+      "flagImagePath": "filipinas"
+    },
+    {
+      "question": "É certo dizer que esta bandeira representa:",
+      "answer1": "Cabo Verde",
+      "answer2": "Camarões",
+      "answer3": "Guatemala",
+      "answer4": "Canadá",
+      "correct": "Canadá",
+      "flagImagePath": "canada"
+    },
+    {
+      "question": "Qual desses países essa bandeira representa?",
+      "answer1": "Honduras",
+      "answer2": "China",
+      "answer3": "Tailândia",
+      "answer4": "Índia",
+      "correct": "Índia",
+      "flagImagePath": "india"
+    },
+    {
+      "question": "Esta bandeira é de qual país?",
+      "answer1": "Chipre",
+      "answer2": "Peru",
+      "answer3": "Equador",
+      "answer4": "Chile",
+      "correct": "Equador",
+      "flagImagePath": "equador"
+    },
+    {
+      "question": "Esta bandeira representa qual país?",
+      "answer1": "Republica Dominicana do Congo",
+      "answer2": "Japão",
+      "answer3": "Afeganistão",
+      "answer4": "Belize",
+      "correct": "Belize",
+      "flagImagePath": "belize"
+    }
+  ]
+}

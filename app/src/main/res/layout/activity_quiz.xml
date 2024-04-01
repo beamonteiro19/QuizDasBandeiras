@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_quiz"
+    android:orientation="vertical"
+    tools:context=".Quiz">
+
+    <com.google.android.material.card.MaterialCardView
+        style="@style/TestCard"
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_marginTop="2dp"
+                android:id="@+id/flagImage"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/quizText"
+                android:fontFamily="@font/lexend_deca"
+                android:textSize="20sp"
+                android:textColor="@color/text_secondary_color"
+                android:padding="25dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        style="@style/TestCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="30dp">
+
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/aanswer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A)"
+                    android:textSize="20sp"
+                    android:textColor="@color/text_secondary_color"
+                    android:padding="15dp"
+                    android:gravity="center_vertical"/>
+
+                <RadioButton
+                    android:id="@+id/banswer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="B)"
+                    android:textSize="20sp"
+                    android:textColor="@color/text_secondary_color"
+                    android:padding="15dp"
+                    android:gravity="center_vertical"/>
+
+                <RadioButton
+                    android:id="@+id/canswer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="C)"
+                    android:textSize="20sp"
+                    android:textColor="@color/text_secondary_color"
+                    android:padding="15dp"
+                    android:gravity="center_vertical"/>
+
+                <RadioButton
+                    android:id="@+id/danswer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="D)"
+                    android:textSize="20sp"
+                    android:textColor="@color/text_secondary_color"
+                    android:padding="15dp"
+                    android:gravity="center_vertical"/>
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- CARD CONFIRM ANSWER-->
+    <com.google.android.material.card.MaterialCardView
+        style="@style/TestCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textAlignment="center"
+                android:text="Responder"
+                android:textSize="20sp"
+                android:textColor="@color/text_secondary_color"
+                android:padding="15dp"
+                android:id="@+id/confirmanswer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            </TextView>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>

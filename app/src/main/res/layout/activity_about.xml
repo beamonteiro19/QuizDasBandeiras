@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main"
+    android:orientation="vertical"
+    tools:context=".About">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:background="@color/card_background"
+        app:cardCornerRadius="15dp"
+        app:strokeWidth="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@mipmap/ic_logo"
+                ></ImageView>
+
+            <TextView
+                android:fontFamily="@font/lexend_deca"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/app_name"
+                android:textColor="@color/text_color"
+                android:textSize="17sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:fontFamily="@font/lexend_deca"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="App Version: 1.1.1"
+                android:textColor="@color/text_color"
+                android:textSize="13sp">
+
+            </TextView>
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- DEV CARD COM IMG MINHA-->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/developerCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp"
+        android:background="@color/card_background"
+        app:cardCornerRadius="15dp"
+        app:strokeWidth="0dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+
+            <ImageView
+                android:fontFamily="@font/lexend_deca"
+                android:src="@drawable/eu"
+                android:layout_width="75dp"
+                android:layout_height="match_parent"
+
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:layout_gravity="start"/>
+
+
+            <LinearLayout
+                android:layout_width="290dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:fontFamily="@font/lexend_deca"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Desenvolvedor"
+                    android:textColor="@color/text_color"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:fontFamily="@font/lexend_deca"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Beatriz Monteiro"
+                    android:textColor="@color/text_color"
+                    android:textSize="13sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <!-- ATIVAR DARKMODE-->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/darkMode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp"
+        android:background="@color/card_background"
+        app:cardCornerRadius="15dp"
+        app:strokeWidth="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:fontFamily="@font/lexend_deca"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RA"
+                android:textColor="@color/text_color"
+                android:textSize="17sp"
+                android:textStyle="bold">
+
+            </TextView>
+            <TextView
+                android:fontFamily="@font/lexend_deca"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2571392222006"
+                android:textColor="@color/text_color"
+                android:textSize="13sp">
+
+            </TextView>
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+</LinearLayout>
